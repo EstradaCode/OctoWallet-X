@@ -3,7 +3,7 @@ package Octo.Modelo.JDBC;
 import Octo.Modelo.DAO.*;
 
 import java.sql.Connection;
-
+@Deprecated
 public class SQLManager {
     private DaoMoneda moneda;
     private DaoPersonaImpl persona;

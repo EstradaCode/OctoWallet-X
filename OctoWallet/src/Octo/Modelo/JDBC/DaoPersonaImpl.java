@@ -19,7 +19,7 @@ public class DaoPersonaImpl implements DaoPersona {
         return null;
     }
 
-    public long crear(Persona persona) throws SQLException {
+    public long crear(Persona persona){
         long id = -1;
         String sql = "INSERT INTO PERSONA (NOMBRES, APELLIDOS)VALUES(?, ?);";
         try (
@@ -36,8 +36,11 @@ public class DaoPersonaImpl implements DaoPersona {
                 System.out.println(e.getMessage());
                 e.printStackTrace();
             }
-            return id;
+        } catch (SQLException e) {
+            System.out.println(e.getMessage());
+            e.printStackTrace();
         }
+        return id;
     }
     public Persona obtener(long id) {
         Persona persona = null;

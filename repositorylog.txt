@@ -1,0 +1,2 @@
+16/2 - Reestructurando proyecto, desacoplando clases, ultima modificación en clase User, reestructurar el inicio y el manejo en los daos. SQLManager deprecated
+

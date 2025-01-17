@@ -1,6 +1,7 @@
 package Octo.Modelo.Entidad;
 
 public class User extends Persona{
+	private long id;
 	private String Email;
 	private String contrasena;
 	private boolean aceptaTerminos;

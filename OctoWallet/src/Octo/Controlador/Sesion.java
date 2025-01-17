@@ -15,6 +15,7 @@ public class Sesion {
     private List<Moneda> monedasDisponibles;
 
     private Sesion() {
+
     }
 
     public Octo.Modelo.Entidad.userResult getUserResult() {

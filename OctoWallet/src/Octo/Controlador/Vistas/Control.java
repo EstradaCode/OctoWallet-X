@@ -1,4 +1,4 @@
-package Octo.Controlador;
+package Octo.Controlador.Vistas;
 
 import Octo.Vista.gui3.*;
 
